@@ -2,9 +2,9 @@
   "version": 2,
   "builds": [
     {
-      "src": "react-blog/package.json",
+      "src": "frontend/package.json",
       "use": "@vercel/static-build"
     }
   ],
-  "outputDirectory": "react-blog/build"
+  "outputDirectory": "frontend/build"
 }
